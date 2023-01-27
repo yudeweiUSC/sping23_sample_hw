@@ -8,9 +8,9 @@ std::vector<char> Unfold(const std::vector<char>& chars, const std::vector<size_
   std::vector<char> res;
 
   for (size_t i = 0; i < chars.size(); ++i) {
-    for (size_t j = 0; j < times[j]; ++j) {
+    for (size_t j = 0; j < times[i]; ++j) {
       // something may be wrong here.
-      res.push_back(chars[j]);
+      res.push_back(chars[i]);
     }
   }
 
