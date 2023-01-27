@@ -6,7 +6,7 @@ cc_library(
 )
 
 cc_test(
-    name = "SimpleSampleTest",
+    name = "test",
     srcs = ["test.cc"],
     deps = [
         ":SimpleSampleLib",
@@ -15,7 +15,7 @@ cc_test(
 )
 
 cc_binary(
-    name = "SimpleSampleMain",
+    name = "main",
     srcs = ["main.cc"],
     deps = [
         ":SimpleSampleLib",
